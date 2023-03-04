@@ -32,8 +32,8 @@ int main()
 
     //Create executable/window Icon  **CAUSING CRASH
     sf::Image icon;
-    icon.loadFromFile("resources/spaceinvaders.jpg");
-    window.setIcon(900, 420, icon.getPixelsPtr());
+    icon.loadFromFile("resources/spaceinvaders2.png");
+    window.setIcon(32, 32, icon.getPixelsPtr());
 
     // Load the sounds used in the game
     sf::SoundBuffer ballSoundBuffer;
